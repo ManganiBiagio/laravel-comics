@@ -37,6 +37,7 @@ nav{
             
         }
     }
+    
     .active{
         color:var(--color-primary ); 
     
@@ -50,4 +51,11 @@ nav{
     }
     
 
+}
+
+.jumbotron{
+    .img-box {
+        height: 400px;
+        overflow: hidden;
+    }
 }
