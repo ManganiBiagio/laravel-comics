@@ -34,12 +34,17 @@ nav{
                color:var(--color-primary ); 
                cursor:pointer;
             }
+            a{
+                color: unset;
+                text-decoration: unset;
+            }
             
         }
     }
     
     .active{
         color:var(--color-primary ); 
+        
     
     }
     .active::after{

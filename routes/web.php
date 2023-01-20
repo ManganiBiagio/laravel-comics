@@ -13,11 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    
+Route::get('/', function () { 
+    return view('home');
+})->name("HOME");
+
+Route::get("/comics",function(){
     $data=[
         "comics"=>config("myConfig.tempDb")
 
     ];
-    return view('home',$data);
-})->name("home");
+    return view("COMICS",$data);
+});

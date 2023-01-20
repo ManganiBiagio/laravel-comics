@@ -1,6 +1,7 @@
 <?php
 
 return [
+    "HOME",
     "CHARACTERS",
     "COMICS","MOVIE"
     ,"TV","GAMES"
