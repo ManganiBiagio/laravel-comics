@@ -135,4 +135,30 @@ footer{
     
     
     }
+    .box-footer{
+        background-color: var(--color-third);
+        padding: 1rem 0;
+    }
+    .my-btn{
+        color: white;
+        background-color: transparent;
+        border: 3px solid var(--color-primary);
+        padding: 10px;
+        &:hover{
+            background-color: var(--color-primary);
+            transition:background-color .3s;
+            
+            
+        }
+    
+    }
+    .link-box{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-left:auto ;
+    }
+    .txt-footer{
+        color: var(--color-primary);
+    }
 }
