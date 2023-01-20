@@ -6,6 +6,7 @@
     --color-link:#797979;
 }
 
+
 nav{
     
         padding: 1rem 0;
@@ -165,5 +166,43 @@ footer{
     }
     .txt-footer{
         color: var(--color-primary);
+    }
+}
+.comics{
+    background-color: var(--color-third);
+    
+    .img-box {
+        height: 400px;
+        overflow: hidden;
+    }
+    .card{
+        background-color: transparent;
+        border: unset;
+        color: white;
+        
+    }
+    .my-btn{
+        color: white;
+        background-color: var(--color-primary);
+        border: 3px solid var(--color-primary);
+        padding: 10px;
+        &:hover{
+            background-color: white;
+            color:black;
+            border: 3px solid white;
+            transition:background-color .3s;
+            
+            
+        }
+    
+    }
+    .title-main{
+        color: white;
+        background-color: var(--color-primary);
+        position: relative;
+        top:-15px;
+        font-size: 1.5rem;
+        display: inline;
+        padding: .5rem;
     }
 }

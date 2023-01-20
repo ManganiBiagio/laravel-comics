@@ -15,11 +15,11 @@
   {{-- header --}}
   @include('partials.header')
 
-  <div class="container">
+  
     {{-- segnaposto per il contenuto di ogni pagina.
         Questo dovrà essere sostituito in ogni pagina con un contenuto diverso --}}
     @yield('content')
-  </div>
+  
 
   {{-- footer --}}
   @include('partials.footer')

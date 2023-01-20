@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('home');
 })->name("HOME");
 
-Route::get("/comics",function(){
+Route::get("/COMICS",function(){
     $data=[
         "comics"=>config("myConfig.tempDb")
 
     ];
-    return view("COMICS",$data);
-});
+    return view("comics",$data);
+})->name("COMICS");

@@ -5,7 +5,7 @@
         <ul>
             @foreach (config("myConfig.navbarLinks") as $link )
             <li class="{{ Route::currentRouteName() === $link ? 'active' : '' }}">
-                <a href="/{{$link}}">{{$link}}</a>
+                <a href="/{{$link==="HOME" ? "": $link}}">{{$link}}</a>
             
             </li>
                 
